@@ -1,0 +1,28 @@
+{
+  "name": "week-10-twitter-ui_tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omaimaqasim/week-10-twitter-UI-using-tailwind.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omaimaqasim/week-10-twitter-UI-using-tailwind/issues"
+  },
+  "homepage": "https://github.com/omaimaqasim/week-10-twitter-UI-using-tailwind#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.23",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.19",
+    "vite": "^7.3.0"
+  }
+}
