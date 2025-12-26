@@ -1,0 +1,4 @@
+justify-center only works when children do NOT take full width.
+
+mx-auto : 👉 It horizontally centers a block element
+👉 Only works if the element has a fixed or max width
