@@ -2,3 +2,16 @@ justify-center only works when children do NOT take full width.
 
 mx-auto : 👉 It horizontally centers a block element
 👉 Only works if the element has a fixed or max width
+
+
+Invert = reverse the colors 
+if color is :
+White → Black
+Black → White
+
+
+for icons go to google font icons and then copy paste static icons link 
+after that isert icons below it copypaste it
+
+
+space-y-3 ===> this will give margin top and botton
