@@ -15,3 +15,5 @@ after that isert icons below it copypaste it
 
 
 space-y-3 ===> this will give margin top and botton
+
+width : fit content mean that width will be same size of content
