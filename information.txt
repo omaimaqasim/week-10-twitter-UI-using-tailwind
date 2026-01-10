@@ -13,7 +13,6 @@ Black → White
 for icons go to google font icons and then copy paste static icons link 
 after that isert icons below it copypaste it
 
-
-space-y-3 ===> this will give margin top and botton
+space-y-3 = vertical gap between children
 
 width : fit content mean that width will be same size of content
