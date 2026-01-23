@@ -100,12 +100,15 @@
             </div>
 
             <!-- about me div -->
-             <div class="about_me">
-                <div class="left p-3 "><img class="w-16 h-16 object-cover   border-blue-50 border-none rounded-full " src="assets/profile pic.jpg" alt=""></div>
+             <div class="about_me flex py-3 px-2 gap-1 ">
+                <div class="left p-3 cursor-pointer "><img class="w-14 h-14 object-cover   border-blue-50 border-none rounded-full " src="assets/profile pic.jpg" alt=""></div>
                 
-                <div class="right">
-                    
-                    
+                <div class="right flex flex-col gap-2 py-3">
+                    <input type="text" class="bg-black px-2" placeholder="What's happening?"> 
+                    <div class=" rounded-full reply px-3 py-[2px] w-fit flex items-center gap-1 cursor-pointer hover:bg-[#0372c436] ">
+                 <span class="material-symbols-outlined text-[18px]  text-blue-400  ">public</span>
+                        <p class="text-blue-400 font-bold text-[14px]">Everyone can reply</p>
+                    </div>
                 </div>
              </div>
         </div>
