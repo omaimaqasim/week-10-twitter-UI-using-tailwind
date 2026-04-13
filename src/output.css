@@ -554,10 +554,6 @@ video {
   display: none;
 }
 
-.fixed {
-  position: fixed;
-}
-
 .absolute {
   position: absolute;
 }
@@ -572,10 +568,6 @@ video {
 
 .bottom-0 {
   bottom: 0px;
-}
-
-.left-0 {
-  left: 0px;
 }
 
 .left-1 {
@@ -678,10 +670,6 @@ video {
 
 .ml-0 {
   margin-left: 0px;
-}
-
-.ml-\[18\%\] {
-  margin-left: 18%;
 }
 
 .mr-2 {
@@ -813,28 +801,28 @@ video {
   width: 100%;
 }
 
+.w-\[92\%\] {
+  width: 92%;
+}
+
+.w-\[96\%\] {
+  width: 96%;
+}
+
+.min-w-\[332px\] {
+  min-width: 332px;
+}
+
 .max-w-\[360px\] {
   max-width: 360px;
 }
 
-.max-w-\[840px\] {
-  max-width: 840px;
-}
-
-.max-w-\[480px\] {
-  max-width: 480px;
+.max-w-\[520px\] {
+  max-width: 520px;
 }
 
 .max-w-\[600px\] {
   max-width: 600px;
-}
-
-.max-w-\[510px\] {
-  max-width: 510px;
-}
-
-.max-w-\[520px\] {
-  max-width: 520px;
 }
 
 .cursor-pointer {
@@ -1118,6 +1106,10 @@ video {
   padding-top: 1rem;
 }
 
+.pl-\[111px\] {
+  padding-left: 111px;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1388,12 +1380,6 @@ video {
   background-color: #db277740;
 }
 
-@media not all and (min-width: 1280px) {
-  .max-xl\:w-\[18\%\] {
-    width: 18%;
-  }
-}
-
 @media not all and (min-width: 1024px) {
   .max-lg\:pl-\[30px\] {
     padding-left: 30px;
@@ -1404,10 +1390,6 @@ video {
   .md\:mx-16 {
     margin-left: 4rem;
     margin-right: 4rem;
-  }
-
-  .md\:ml-\[25\%\] {
-    margin-left: 25%;
   }
 
   .md\:block {
@@ -1437,6 +1419,14 @@ video {
   .md\:w-fit {
     width: -moz-fit-content;
     width: fit-content;
+  }
+
+  .md\:w-\[340px\] {
+    width: 340px;
+  }
+
+  .md\:w-\[300px\] {
+    width: 300px;
   }
 
   .md\:items-end {
@@ -1473,5 +1463,29 @@ video {
   .md\:py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:block {
+    display: block;
+  }
+
+  .xl\:w-\[300px\] {
+    width: 300px;
+  }
+
+  .xl\:justify-center {
+    justify-content: center;
+  }
+
+  .xl\:justify-around {
+    justify-content: space-around;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:justify-center {
+    justify-content: center;
   }
 }
