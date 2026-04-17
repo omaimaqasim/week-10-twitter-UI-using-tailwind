@@ -768,14 +768,6 @@ video {
   width: 10%;
 }
 
-.w-\[18\%\] {
-  width: 18%;
-}
-
-.w-\[33vw\] {
-  width: 33vw;
-}
-
 .w-\[45\%\] {
   width: 45%;
 }
@@ -792,6 +784,10 @@ video {
   width: 90%;
 }
 
+.w-\[96\%\] {
+  width: 96%;
+}
+
 .w-fit {
   width: -moz-fit-content;
   width: fit-content;
@@ -801,16 +797,16 @@ video {
   width: 100%;
 }
 
-.w-\[92\%\] {
-  width: 92%;
-}
-
-.w-\[96\%\] {
-  width: 96%;
+.w-\[93\%\] {
+  width: 93%;
 }
 
 .min-w-\[332px\] {
   min-width: 332px;
+}
+
+.min-w-\[550px\] {
+  min-width: 550px;
 }
 
 .max-w-\[360px\] {
@@ -823,6 +819,14 @@ video {
 
 .max-w-\[600px\] {
   max-width: 600px;
+}
+
+.max-w-full {
+  max-width: 100%;
+}
+
+.max-w-\[700px\] {
+  max-width: 700px;
 }
 
 .cursor-pointer {
@@ -1090,8 +1094,8 @@ video {
   padding-left: 0px;
 }
 
-.pl-\[65px\] {
-  padding-left: 65px;
+.pl-\[111px\] {
+  padding-left: 111px;
 }
 
 .pr-4 {
@@ -1104,10 +1108,6 @@ video {
 
 .pt-4 {
   padding-top: 1rem;
-}
-
-.pl-\[111px\] {
-  padding-left: 111px;
 }
 
 .text-center {
@@ -1404,14 +1404,6 @@ video {
     display: none;
   }
 
-  .md\:w-1\/4 {
-    width: 25%;
-  }
-
-  .md\:w-\[40\%\] {
-    width: 40%;
-  }
-
   .md\:w-\[70\%\] {
     width: 70%;
   }
@@ -1421,12 +1413,8 @@ video {
     width: fit-content;
   }
 
-  .md\:w-\[340px\] {
-    width: 340px;
-  }
-
-  .md\:w-\[300px\] {
-    width: 300px;
+  .md\:w-\[93\%\] {
+    width: 93%;
   }
 
   .md\:items-end {
@@ -1435,14 +1423,6 @@ video {
 
   .md\:justify-start {
     justify-content: flex-start;
-  }
-
-  .md\:justify-center {
-    justify-content: center;
-  }
-
-  .md\:justify-around {
-    justify-content: space-around;
   }
 
   .md\:px-11 {
@@ -1466,6 +1446,16 @@ video {
   }
 }
 
+@media (min-width: 1024px) {
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:w-\[96\%\] {
+    width: 96%;
+  }
+}
+
 @media (min-width: 1280px) {
   .xl\:block {
     display: block;
@@ -1476,16 +1466,6 @@ video {
   }
 
   .xl\:justify-center {
-    justify-content: center;
-  }
-
-  .xl\:justify-around {
-    justify-content: space-around;
-  }
-}
-
-@media (min-width: 1536px) {
-  .\32xl\:justify-center {
     justify-content: center;
   }
 }
