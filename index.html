@@ -14,7 +14,35 @@
 <body class="bg-black text-white">
 
     <div class="main flex justify-center   ">
-        <div class="first   h-screen  xl:w-[300px] p-4 ">
+        <div class="sec_sidebar block sm:hidden fixed bottom-0 px-2 z-10 w-full  ">
+           <ul class="flex justify-between">
+                   <li
+                        class="flex gap-2  justify-start items-center md:px-2 py-[0.3rem] hover:bg-[#242424c2] w-fit cursor-pointer  hover:border-none hover:rounded-full ">
+                        <span class="material-symbols-outlined text-[26px]">home</span> <span
+                            class="hidden xl:block">Home</span>
+                    </li>
+                    <li
+                        class="flex gap-2  justify-start items-center md:px-2 py-[0.3rem] hover:bg-[#242424c2] w-fit cursor-pointer  hover:border-none hover:rounded-full">
+                        <span class="material-symbols-outlined text-[26px]">search</span><span
+                            class="hidden xl:block">Explore </span>
+                    </li>
+                    <li
+                        class="flex gap-2  justify-start items-center md:px-2 py-[0.3rem] hover:bg-[#242424c2] w-fit cursor-pointer  hover:border-none hover:rounded-full">
+                        <span class="material-symbols-outlined text-[26px]">notifications</span> <span
+                            class="hidden xl:block">Notification</span>
+                    </li>
+                    <li
+                        class="flex gap-2  justify-start items-center md:px-2 py-[0.3rem] hover:bg-[#242424c2] w-fit cursor-pointer  hover:border-none hover:rounded-full">
+                        <span class="material-symbols-outlined">chat</span><span class="hidden xl:block">Messages</span>
+                    </li>
+                    <li
+                        class="flex gap-2  justify-start items-center md:px-2 py-[0.3rem] hover:bg-[#242424c2] w-fit cursor-pointer  hover:border-none hover:rounded-full">
+                        <span class="material-symbols-outlined text-[26px]">smart_toy</span><span
+                            class="hidden xl:block">Grok</span>
+                    </li>
+           </ul>
+        </div>
+        <div class="first sm:block  hidden   h-screen  xl:w-[300px] p-4 ">
             <div class="logo flex justify-end xl:justify-center invert w-full md:w-[93%] lg:w-[96%] my-2">
                 <svg viewBox="0 0 24 24" aria-hidden="true"
                     class=" w-7   r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-lrsllp r-1nao33i r-16y2uox r-8kz0gk">
@@ -88,7 +116,7 @@
             </div>
 
         </div>
-        <div class="sec max-w-[600px] min-w-[550px] w-[50%] border-[1px] border-[#464646] ">
+        <div class="sec max-w-[600px] min-w-[300px] w-full  sm:min-w-[550px] sm:w-[50%] border-[1px] border-[#464646] ">
 
             <!-- top div -->
             <div class="top flex p-1  w-full border-b border-[#464646] relative">
