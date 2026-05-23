@@ -16,3 +16,13 @@ after that isert icons below it copypaste it
 space-y-3 = vertical gap between children
 
 width : fit content mean that width will be same size of content
+
+
+
+
+When you apply display: flex to a container, its children become flex items.
+By default, flex items have flex-shrink: 1, so when the screen becomes smaller, Flexbox shrinks the children to make them fit inside the container.
+
+
+If you want to make a div fixed without breaking the layout, put it inside a parent div.
+The parent keeps the space in the layout, and the child div stays fixed on the screen.

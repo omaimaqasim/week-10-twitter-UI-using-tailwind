@@ -42,8 +42,8 @@
                 </li>
             </ul>
         </div>
-        <div class="first sm:block  hidden   h-screen  xl:w-[300px] p-4 ">
-            <div class="sidebar flex flex-col sticky top-0   justify-end  pl-[30px] lg:pl-[111px] ">
+        <div class="first sm:block  hidden   h-screen w-[90px] xl:w-[300px] p-4 ">
+            <div class="sidebar fixed  flex flex-col  top-3 justify-end  pl-[20px] xl:pl-[111px] ">
 
                 <div class="logo flex justify-start p-0 md:pl-2 invert w-full md:w-[93%] lg:w-[96%] my-2">
                     <svg viewBox="0 0 24 24" aria-hidden="true"
@@ -120,9 +120,12 @@
 
             <!-- top div -->
             <div class="top flex p-1  w-full border-b border-[#464646] ">
-                <div class="firstbtn relative w-[45%] flex flex-col items-center cursor-pointer hover:bg-[#242424c2] p-3 ">
-                    <button class="for_you   ">For you</button>
-                    <div class="blue_line bg-blue-500 h-1 w-[61px] bottom-0 right-[100px] rounded-lg absolute"></div>
+                <div
+                    class="firstbtn relative w-[45%] flex flex-col items-center cursor-pointer hover:bg-[#242424c2] p-3 ">
+                    <button class="for_you   "> 
+                        <span>For you </span>
+                        <div class="blue_line bg-blue-500 h-1 w-[60px] text-center bottom-0 rounded-lg absolute"> </div>
+                    </button>
 
                 </div>
 
@@ -359,6 +362,170 @@
 
 
             </div>
+
+             <div class="post w-full flex items-star border-[#464646] border-b">
+                <div class="left left p-3  shrink-0 ">
+                    <img class="w-10cursor-pointer h-10 object-cover object-top border-blue-50 border-none rounded-full "
+                        src="assets/anime.jpg" alt="">
+                </div>
+
+                <div class="right max-w-[520px] w-full flex flex-col pr-4 pl-0  ">
+
+                    <div class="top flex  max-w-full justify-between pt-3 ">
+                        <div class="top-left flex xs:flex-row  flex-col gap-1">
+                            <p class="font-bold cursor-pointer text-[16px] hover:underline">AnimeBoy</p>
+                            <p class="text-[#6d6c6c] cursor-pointer text-[13px] xs:text-[16px]">@AnimeBoyOG . <span
+                                    class="hover:underline">Feb 12</span></p>
+                        </div>
+                        <div class="top-right flex ">
+                            <span
+                                class="material-symbols-outlined transition duration-150 text-[#6d6c6c] pr-2 hover:text-[rgb(29,155,240)] hover:bg-[#0372c436] rounded-full xs:p-2 text-[20px] flex justify-center xs:items-center  cursor-pointer">visibility_off</span>
+                            <span
+                                class="material-symbols-outlined transition duration-150 text-[#6d6c6c] hover:text-[rgb(29,155,240)] hover:bg-[#0372c436] rounded-full  xs:p-2 text-[20px] flex justify-center xs:items-center   cursor-pointer">more_horiz</span>
+
+                        </div>
+                    </div>
+
+                    <div class="mid flex flex-col">
+                        <div class="para text-[12px]   xs:text-[14px] flex flex-col gap-5 pb-4">
+
+                            <p>The model that made me profitable.</p>
+                            <p>I should charge for it.</p>
+                            <p>But I'm giving it away for free.</p>
+                        </div>
+
+                        <img class=" rounded-xl h-[38vh]  xxs:h-[50vh]" src="assets/record.png" alt="">
+                    </div>
+
+                    <div class=" last post_icons flex py-2  justify-between ">
+
+                        <!-- using group class we can change child style while hovering parent -->
+                        <div
+                            class="icon_p flex group items-center justify-center transition duration-150 gap-0 text-[#6d6c6c]  relative cursor-pointer hover:text-[rgb(29,155,240)]  ">
+                            <span
+                                class="material-symbols-outlined rounded-full    group-hover:bg-[#0372c436]  text-[18px] p-2 flex items-center justify-center">chat_bubble</span>
+                            <p class="count absolute left-7 text-sm">101</p>
+                        </div>
+
+                        <div
+                            class="icon_p flex group items-center justify-center transition duration-150  gap-0 text-[#6d6c6c]  relative cursor-pointer hover:text-green-600 ">
+                            <span
+                                class="material-symbols-outlined  rounded-full group-hover:bg-[#03c40325]   text-[18px] p-2 flex items-center justify-center">repeat</span>
+                            <p class="count absolute left-7 text-sm">10</p>
+                        </div>
+
+                        <div
+                            class="icon_p flex group items-center justify-center transition duration-150  gap-0 text-[#6d6c6c]  relative cursor-pointer hover:text-pink-600 ">
+                            <span
+                                class="material-symbols-outlined  rounded-full  group-hover:bg-[#db277740]  text-[18px] p-2 flex items-center justify-center">favorite</span>
+                            <p class="count absolute left-7 text-sm">10</p>
+                        </div>
+
+                        <div
+                            class="icon_p flex group items-center justify-center transition duration-150  gap-0 text-[#6d6c6c]  relative cursor-pointer hover:text-[rgb(29,155,240)] ">
+                            <span
+                                class="material-symbols-outlined  rounded-full  group-hover:bg-[#0372c436]  text-[18px] p-2 flex items-center justify-center">bar_chart</span>
+                            <p class="count absolute left-7 text-sm">10</p>
+                        </div>
+
+                        <div class="icon_p flex  ">
+                            <span
+                                class="material-symbols-outlined relative left-1 transition duration-150  cursor-pointer hidden xxs:block  text-[#6d6c6c]  rounded-full hover:bg-[#0372c436]  text-[22px] p-2 flex items-center justify-center hover:text-[rgb(29,155,240)] ">bookmark</span>
+                            <span
+                                class="material-symbols-outlined  cursor-pointer transition duration-150    text-[#6d6c6c]  rounded-full hover:bg-[#0372c436]  text-[22px] p-2 flex items-center justify-center hover:text-[rgb(29,155,240)]">upload</span>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+             <div class="post w-full flex items-star border-[#464646] border-b">
+                <div class="left left p-3  shrink-0 ">
+                    <img class="w-10cursor-pointer h-10 object-cover object-top border-blue-50 border-none rounded-full "
+                        src="assets/anime.jpg" alt="">
+                </div>
+
+                <div class="right max-w-[520px] w-full flex flex-col pr-4 pl-0  ">
+
+                    <div class="top flex  max-w-full justify-between pt-3 ">
+                        <div class="top-left flex xs:flex-row  flex-col gap-1">
+                            <p class="font-bold cursor-pointer text-[16px] hover:underline">AnimeBoy</p>
+                            <p class="text-[#6d6c6c] cursor-pointer text-[13px] xs:text-[16px]">@AnimeBoyOG . <span
+                                    class="hover:underline">Feb 12</span></p>
+                        </div>
+                        <div class="top-right flex ">
+                            <span
+                                class="material-symbols-outlined transition duration-150 text-[#6d6c6c] pr-2 hover:text-[rgb(29,155,240)] hover:bg-[#0372c436] rounded-full xs:p-2 text-[20px] flex justify-center xs:items-center  cursor-pointer">visibility_off</span>
+                            <span
+                                class="material-symbols-outlined transition duration-150 text-[#6d6c6c] hover:text-[rgb(29,155,240)] hover:bg-[#0372c436] rounded-full  xs:p-2 text-[20px] flex justify-center xs:items-center   cursor-pointer">more_horiz</span>
+
+                        </div>
+                    </div>
+
+                    <div class="mid flex flex-col">
+                        <div class="para text-[12px]   xs:text-[14px] flex flex-col gap-5 pb-4">
+
+                            <p>The model that made me profitable.</p>
+                            <p>I should charge for it.</p>
+                            <p>But I'm giving it away for free.</p>
+                        </div>
+
+                        <img class=" rounded-xl h-[38vh]  xxs:h-[50vh]" src="assets/record.png" alt="">
+                    </div>
+
+                    <div class=" last post_icons flex py-2  justify-between ">
+
+                        <!-- using group class we can change child style while hovering parent -->
+                        <div
+                            class="icon_p flex group items-center justify-center transition duration-150 gap-0 text-[#6d6c6c]  relative cursor-pointer hover:text-[rgb(29,155,240)]  ">
+                            <span
+                                class="material-symbols-outlined rounded-full    group-hover:bg-[#0372c436]  text-[18px] p-2 flex items-center justify-center">chat_bubble</span>
+                            <p class="count absolute left-7 text-sm">101</p>
+                        </div>
+
+                        <div
+                            class="icon_p flex group items-center justify-center transition duration-150  gap-0 text-[#6d6c6c]  relative cursor-pointer hover:text-green-600 ">
+                            <span
+                                class="material-symbols-outlined  rounded-full group-hover:bg-[#03c40325]   text-[18px] p-2 flex items-center justify-center">repeat</span>
+                            <p class="count absolute left-7 text-sm">10</p>
+                        </div>
+
+                        <div
+                            class="icon_p flex group items-center justify-center transition duration-150  gap-0 text-[#6d6c6c]  relative cursor-pointer hover:text-pink-600 ">
+                            <span
+                                class="material-symbols-outlined  rounded-full  group-hover:bg-[#db277740]  text-[18px] p-2 flex items-center justify-center">favorite</span>
+                            <p class="count absolute left-7 text-sm">10</p>
+                        </div>
+
+                        <div
+                            class="icon_p flex group items-center justify-center transition duration-150  gap-0 text-[#6d6c6c]  relative cursor-pointer hover:text-[rgb(29,155,240)] ">
+                            <span
+                                class="material-symbols-outlined  rounded-full  group-hover:bg-[#0372c436]  text-[18px] p-2 flex items-center justify-center">bar_chart</span>
+                            <p class="count absolute left-7 text-sm">10</p>
+                        </div>
+
+                        <div class="icon_p flex  ">
+                            <span
+                                class="material-symbols-outlined relative left-1 transition duration-150  cursor-pointer hidden xxs:block  text-[#6d6c6c]  rounded-full hover:bg-[#0372c436]  text-[22px] p-2 flex items-center justify-center hover:text-[rgb(29,155,240)] ">bookmark</span>
+                            <span
+                                class="material-symbols-outlined  cursor-pointer transition duration-150    text-[#6d6c6c]  rounded-full hover:bg-[#0372c436]  text-[22px] p-2 flex items-center justify-center hover:text-[rgb(29,155,240)]">upload</span>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
 
 
 
