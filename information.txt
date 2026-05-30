@@ -26,3 +26,6 @@ By default, flex items have flex-shrink: 1, so when the screen becomes smaller, 
 
 If you want to make a div fixed without breaking the layout, put it inside a parent div.
 The parent keeps the space in the layout, and the child div stays fixed on the screen.
+
+
+remember this sticky behave like relative until div reached desire position like top 0 then it behave like fixed
